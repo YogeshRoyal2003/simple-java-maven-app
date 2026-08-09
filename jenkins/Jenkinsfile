@@ -30,5 +30,10 @@ pipeline {
                 echo 'Job Complete!'
             }
         }
+        stage('Multi Branch Check'){
+            steps {
+                echo 'Successful creation of multibranch check'
+            }
+        }
     }
 }
